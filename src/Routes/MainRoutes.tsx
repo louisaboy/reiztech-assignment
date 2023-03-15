@@ -5,8 +5,7 @@ import { CountryPage } from '../pages/CountryPage';
 export const MainRoutes = () => {
     return useRoutes([
         {path:'/', element: <Countries />},
-        {path:'/country/:name', element: <Countries />},
-        // if code is needed
-        {path:'/code/:code', element: <Countries />},
+        {path:'/country/:name', element: <CountryPage />},
+        {path:'/code/:code', element: <CountryPage />},
     ])
 }

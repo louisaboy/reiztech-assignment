@@ -4,6 +4,7 @@ export const CountryItem = styled.div`
     background-color: #FFF;
     box-shadow: 2px 2px 1em rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    margin-bottom: 20px;
 
     a {
         text-decoration: none;
@@ -35,6 +36,14 @@ export const CountryItem = styled.div`
             font-size: 17px;
             margin: 10px 0px;
 
+        }
+    }
+
+    @media(max-width: 768px) {
+        .img-area {
+            img {
+                height: 180px;
+            }
         }
     }
 `

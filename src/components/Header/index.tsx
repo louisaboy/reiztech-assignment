@@ -4,8 +4,7 @@ export const Header = () =>  {
     return (
         <C.Header>
             <div className='container'>
-                <h1>Where in the World?</h1>
-                <p>Dark Mode</p>
+                <h1>Countries of the World</h1>
             </div>
         </C.Header>
     )

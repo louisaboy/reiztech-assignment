@@ -6,5 +6,6 @@ export interface CountriesTS {
     numericCode: number,
     flags: {
         png: string;
-    }
+    },
+    area: number,
 }

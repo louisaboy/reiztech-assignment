@@ -13,9 +13,8 @@ export const api = {
         let response = await http.get(`/name/${name}?fullText=true`)
         return response.data
     },
-    // check if needed country code
     getCountryByCode: async (code: string) => {
         let response = await http.get(`/alpha?codes=${code}`)
         return response.data
-    }
+    },
 }
